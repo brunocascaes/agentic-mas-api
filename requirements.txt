@@ -1,0 +1,18 @@
+# --- Web Framework & Server ---
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# --- Configs & Environment Variables ---
+pydantic-settings>=2.2.0
+
+# --- Database & ORM ---
+sqlalchemy>=2.0.29
+asyncpg>=0.29.0
+psycopg[binary]>=3.1.18
+
+# --- Agentic Frameworks ---
+agno==2.2.10
+
+# --- LLM Providers ---
+google-genai
+openai
